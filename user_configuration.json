@@ -227,7 +227,11 @@
         "kitty",
         "nvidia-open-dkms",
         "nvidia-utils",
+        "lib32-nvidia-utils",
         "egl-wayland",
+        "ttf-liberation",
+        "lib32-systemd",
+        "steam"
     ],
     "parallel downloads": 0,
     "profile_config": {

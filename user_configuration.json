@@ -17,6 +17,7 @@
         "cd paru",
         "makepkg -si",
         "cd ~",
+        "curl -f https://zed.dev/install.sh | sh",
         "git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/HyDE",
         "cd ~/HyDE/Scripts",
         "./install.sh"

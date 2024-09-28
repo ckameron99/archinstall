@@ -10,7 +10,7 @@
     "config_version": "2.8.6",
     "custom-commands": [
         "echo 'options nvidia_drm modeset=1 fbdev=1' > /etc/modprobe.d/nvidia.conf",
-        "sed 's/MODULES=(/MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm /' /etc/mkinitcpio.conf",
+        "sed -i 's/MODULES=(/MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm /' /etc/mkinitcpio.conf",
         "cd /home/cameron/",
         "su cameron -c 'git clone https://aur.archlinux.org/paru.git ~/paru'",
         "su cameron -c 'cd ~/paru && makepkg -si'",
